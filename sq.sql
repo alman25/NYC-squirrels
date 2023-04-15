@@ -1,3 +1,29 @@
+Create Table sq (
+	longitude DECIMAL(10,8),
+	lat DECIMAL(10,8),
+	unique_squirrel_id VARCHAR(14),
+	hectare VARCHAR(3),
+	shift VARCHAR(2),
+	dates VARCHAR(8),
+	hectare_squirrel_number NUMERIC,
+	age VARCHAR(8),
+	primary_fur_color VARCHAR(8),
+	locations VARCHAR(12),
+	running NUMERIC,
+	chasing NUMERIC,
+	climbing NUMERIC,
+	eating NUMERIC,
+	foraging NUMERIC,
+	kuks NUMERIC,
+	quaas NUMERIC,
+	moans NUMERIC,
+	tail_flags NUMERIC,
+	tail_twitches NUMERIC,
+	approaches NUMERIC,
+	indifferent NUMERIC,
+	runs_from NUMERIC
+);
+
 SELECT *
 FROM sq;
 
